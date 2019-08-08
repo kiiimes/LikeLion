@@ -1,0 +1,146 @@
+.post-pick>a>img{
+  width:18%;
+  height:200px;
+
+}
+.post-pick>img{
+  width:18%;
+  height:200px;
+
+  /*margin-left:1.8%;*/
+}
+#beginner-guide img{
+  display:block;
+  float:left;
+}
+
+#beginner-guide>img:first-child{
+  padding-left:200px;
+}
+#beginner-guide{
+  height:200px;
+}
+#picture{
+  padding-left:10%;
+}
+#menu>li:nth-child(3){
+  color:black;
+}
+h3{
+  font-weight:bold;
+  text-align:center;
+  margin-top:60px;
+  margin-bottom:30px;
+}
+#container>h3{
+  margin-top:200px;
+}
+#pick-image{
+  height:100px;
+
+}
+#pick-image>ul>li>img{
+
+  height:300px;
+  width:100%;
+}
+.post-img:hover{
+  background-color:black;
+}
+
+#pick-image>ul>li{
+  margin-left:90px;
+}
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.post-pick:hover .image {
+  opacity: 0.3;
+}
+
+.post-pick:hover .middle {
+  opacity: 1;
+}
+
+.mid1{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.post-pick:hover .mid1 {
+  opacity: 1;
+}
+
+.mid2{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.post-pick:hover .mid2 {
+  opacity: 1;
+}
+
+.mid3{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.post-pick:hover .mid3 {
+  opacity: 1;
+}
+
+.mid4{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.post-pick:hover .mid4 {
+  opacity: 1;
+}
+
+.mid5{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.post-pick:hover .mid5 {
+  opacity: 1;
+}
+
+
+footer{
+  text-align:center;
+}

@@ -1,0 +1,276 @@
+// Place all the styles related to the board controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html{
+  font-size: 15px;
+  line-height: 1.6 /* 24px/15px = 1.6 */
+}
+
+* {
+  font-family: sans-serif;
+
+}
+button{
+  cursor: pointer;
+}
+button:focus{
+  outline: none;
+}
+
+a{
+  color: inherit;
+}
+
+a:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* header */
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 0.933333rem;
+  font-weight: 700;
+  line-height: 1.43;
+  letter-spacing: 0.3em;
+  color: #181818;
+}
+
+.navbar-light .nav-item-top.active .nav-link{
+  color: white;
+}
+
+
+article>h1{
+  color:red;
+  font-weight:bold;
+}
+article>h1>span{
+  color:black;
+  font-weight:bold;
+}
+
+article{
+  height:500px;
+  background-image:url('background.jpg');
+}
+
+// .bg-faded{
+//   background-color: red;
+//   height: 100px;
+//   width: auto;
+// }
+
+.header{
+  height: 100px;
+  width: auto;
+  background-color: red;
+}
+
+.brand-logo{
+  /*position: absolute;*/
+  float:left;
+
+  margin-top:45px;
+  margin-left:5%;
+  width:20%;
+  height:100%;
+}
+
+.nav-item-top{
+  margin-top: 80px;
+}
+
+/* header */
+
+/* main */
+
+.parent-board-title{
+  margin-bottom : 7%;
+}
+
+.board-title{
+  text-align: center;
+}
+
+.write{
+  text-align : center;
+}
+
+.parent-article {
+  margin-top: 50px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.search{
+  margin-bottom : 7%;
+}
+
+h3{
+  font-weight:700;
+}
+
+/*#each-post{*/
+/*  width: 200px;*/
+/*  height: 500px;*/
+/*}*/
+
+.post-img{
+  /*float:left;*/
+  /*margin-top:52px;*/
+  /*margin-left:5%;*/
+  width: 100%;
+  height : auto;
+}
+.post-span{
+  width: 100%;
+  height: auto;
+}
+
+
+/* 마우스 가져다대면 위에 색깔 바뀌는 거 */
+/*#each-post a.d-block{*/
+/*  position: relative;*/
+/*}*/
+
+/*.post-cursor{*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  background-color: white;*/
+/*  opacity: 50%;*/
+/*}*/
+
+/* //마우스 가져다대면 위에 색깔 바뀌는 거 */
+
+.main{
+  margin-top: 90px;
+  padding: 0;
+}
+
+/*.nav-item-wrapper{*/
+/*  font-weight:700;*/
+/*}*/
+/*.nav-item-left{*/
+/*  font-weight:700;*/
+/*}*/
+/*.nav-link.active{*/
+/*  color: red;*/
+/*}*/
+/*.nev-left{*/
+/*  height: 100%;*/
+/*}*/
+
+/*.best-products-img{*/
+/*  width: 100%;*/
+/*  height : auto;*/
+/*}*/
+
+/* //main */
+#main-top{
+  height:50%;
+}
+nav{
+  height:100px;
+  width:100%;
+  background-color:red;
+}
+nav>img{
+  float:left;
+  width:50px;
+  height:50px;
+}
+#menu>ul{
+  float:left;
+}
+#menu>li{
+  float:right;
+  list-style:none;
+  color:white;
+  font-size:20px;
+
+  margin-top:70px;
+  margin-right:5%;
+}
+nav>h5{
+  color:white;
+}
+article>h1{
+  color:red;
+  font-weight:bold;
+}
+article>h1>span{
+  color:black;
+  font-weight:bold;
+}
+nav>img{
+  margin-top:52px;
+  margin-left:5%;
+  width:20%;
+  height:100%;
+}
+article{
+  height:500px;
+  background-image:url('background.jpg');
+}
+#best-product{
+  margin-bottom:30px;
+  height:300px;
+}
+#best-product>h3{
+  font-weight:bold;
+  margin-bottom:10px;
+}
+.product{
+  float:left;
+  list-style:none;
+
+
+}
+.product>li>img{
+  width:150px;
+  height:150px;
+  border:1px solid red;
+  padding:10px 10px;
+}
+.product>li{
+  font-size:4px;
+  margin-top:5px;
+  text-align:center;
+}
+.product>li:nth-child(2){
+  font-weight:bold;
+}
+#best-contents>h3{
+  font-weight:bold;
+}
+#best-contents>img{
+  width:45%;
+  margin-bottom:
+}
+#background-image{
+  width:101%;
+  height:600px;
+  opacity:0.3;
+  margin-left:0px;
+  margin-right:0px;
+}
+#bg{
+  position:relative;
+
+}
+article{
+  position:absolute;
+  top:20%;
+  left:10%;
+  background: rgba(0, 0, 0,0);
+}

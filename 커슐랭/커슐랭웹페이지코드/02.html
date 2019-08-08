@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>이미지 슬라이더 번호</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/easySlider1.7.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true,
+				numeric: true
+			});
+		});	
+	</script>
+	
+<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />	
+	
+</head>
+<body>
+
+<div id="container">
+
+	<div id="header">
+		<h1>이미지 슬라이더 번호</h1>
+	</div>
+
+	<div id="content">
+	
+		<div id="slider">
+			<ul>				
+				<li><a href="http://mainia.tistory.com"><img src="images/1.jpg" width="696" height="300" alt="첫번째이미지" /></a></li>
+				<li><a href="http://mainia.tistory.com"><img src="images/2.jpg" width="696" height="300" alt="두번째이미지" /></a></li>
+				<li><a href="http://mainia.tistory.com"><img src="images/3.jpg" width="696" height="300" alt="세번째이미지" /></a></li>
+				<li><a href="http://mainia.tistory.com"><img src="images/4.jpg" width="696" height="300" alt="네번째이밎" /></a></li>		
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

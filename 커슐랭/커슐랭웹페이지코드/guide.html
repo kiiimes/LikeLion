@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <title>guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="guide.css">
+    <link rel="stylesheet" href="cochelin_product_all.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/easySlider1.7.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#pick-image").easySlider({
+          auto: false,
+          continuous: false
+        });
+      });
+    </script>
+
+
+    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header row">
+        <nav class=" col-12 navbar navbar-toggleable-md navbar-light bg-faded">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="brand-logo">
+            <img src="logo.png" alt="">
+          </div>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item-top">
+                <a class="nav-link px-3" href="product.html">Product<span class="sr-only">(현재페이지)</span></a>
+              </li>
+              <li class="nav-item-top active">
+                <a class="nav-link px-3" href="#">Guide</a>
+              </li>
+              <li class="nav-item-top">
+                <a class="nav-link px-3" href="#">Board</a>
+              </li>
+              <li class="nav-item-top">
+                <a class="nav-link px-3" href="#">User</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div id="main-bottom">
+        <div id="beginner-guide" class="no-gutters">
+          <h3>Guide for Coffee Beginners</h3>
+          <div >
+            <ul id="picture">
+
+            <li class="post-pick"><a href="guide_info.html"><img class="image" src="image/beginner1.jpg" alt=""></a><div class="mid1"><h5>ㅎㅇㅎㅇ</h5></div></li>
+            <li class="post-pick"><img class="image" src="image/beginner2.jpg" alt=""><div class="mid2"><h5>ㅎㅇㅎㅇ</h5></div></li>
+            <li class="post-pick"><img class="image" src="image/beginner3.jpg" alt=""><div class="mid3"><h5>ㅎㅇㅎㅇ</h5></div></li>
+            <li class="post-pick"><img class="image" src="image/beginner4.png" alt=""><div class="mid4"><h5>ㅎㅇㅎㅇ</h5></div></li>
+            <li class="post-pick"><img class="image" src="image/beginner5.jpg" alt=""><div class="mid5"><h5>ㅎㅇㅎㅇ</h5></div></li>
+          </div>
+        </div>
+
+        <div id="container">
+          <h3>Cochelin's Pick!</h3>
+          <div id="pick-image">
+            <ul>
+              <li class="post-pick"><img class="image" src="image/coffee_3.png" alt=""><div class="middle"><h5>ㅎㅇㅎㅇ</h5></div></li>
+              <li class="post-pick"><img class="image" src="image/coffee_2.png" alt=""><div class="middle"><h5>ㅎㅇㅎㅇ</h5></div><</li>
+              <li class="post-pick"><img class="image" src="image/coffee_1.png" alt=""><div class="middle"><h5>ㅎㅇㅎㅇ</h5></div><</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        www.coffeechellinguide.com
+      </footer>
+    </div>
+  </body>
+</html>

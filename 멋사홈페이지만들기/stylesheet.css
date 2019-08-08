@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+}
+#lion-image{
+  font-size:0;
+}
+#main-navigation{
+  height:100px;
+}
+
+.pull-left img{
+  float:left;
+  width:200px;
+  height:50px;
+}
+.pull-right ul{
+  list-style: none;
+  margin-top:20px;
+}
+.pull-right ul li{
+  display:inline-block;
+  float:right;
+  margin-left:50px;
+  margin-right:50px;
+}
+.pull-right ul li:hover{
+    color:orange;
+    border-bottom: 2px solid orange;
+}
+#section-top>img{
+  width:101%;
+  height:300px;
+}
+#section-top{
+  position:relative;
+}
+#section-top>h1{
+  position:absolute;
+  margin:-180px 70px;
+  font-size:50px;
+  color:white;
+  font-weight:200;
+  font-family:sans-serif;
+}
+#search-left>form>input{
+  height:50px;
+  margin-left:30%;
+  width:500px;
+  float:left;
+  margin-top:10px;
+  border-radius:20px 0 0 20px;
+  border:1px solid gray;
+  margin-right:0px;
+}
+#search-right>form>input{
+  float:left;
+  height:53px;
+  margin-top:10px;
+  margin-left:-1px;
+  border-radius:0 20px 20px 0;
+
+}
+#searh-box>div>form>input{
+  margin:0 auto;
+}
+
+
+.row div{
+  border:1px solid black;
+  width:180px;
+  height:250px;
+}
+
+.row:first-child{
+  margin-top:100px;
+
+}
+
+
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin:50px 300px;
+}
+.row div{
+  margin-right:20px;
+  margin-bottom:20px;
+}
